@@ -1,0 +1,110 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Agency FB', sans-serif;
+}
+
+
+
+body{
+   
+    background-image: url(real\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+    
+}
+    
+    
+    
+   
+
+
+
+ 
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;                                                                           
+    height: 60px;
+    background-color: #101014;
+  
+   
+    
+
+}
+.navbar a{
+    color: white ;
+    margin: 25px;
+    font-size:25px ;
+    font-weight: bold;
+ 
+   
+
+    
+
+} 
+.navbar :hover{
+    
+   
+    background-color: #a9702a;
+    border-radius: 3px;
+    border-style: double;
+    border-color: white;
+    transition: 1s linear;
+    padding: 5px;
+}
+.icons a{
+    color: white;
+    margin: 10px;
+    font-size: 20;
+    font-weight: bold;
+    margin-right: 15px;
+
+
+}
+
+
+.img{
+    width: 45px;
+    height: 45px;
+    border: 4px;
+    margin-bottom: 5px;
+    border-radius: 120px;
+    border-style: double;
+    border-color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+ h1{
+    font-size:80px;
+    color: white;
+    margin-top: 90px;
+   margin-left: 60px;
+}
+
+ h3{
+    color: white;
+   margin-left: 25px;
+   font-size: 29px;
+  
+}
+
+
+Button{
+    color: rgb(247, 244, 244);
+    background-color: #a9702a;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+   margin-left: 165px;
+    transition: 1s linear;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+Button:hover{
+    background-color: transparent;
+}
